@@ -1,0 +1,89 @@
+# General system files
+.DS_Store
+.DS_Store?
+.env
+.env?
+.envtemp
+.envtemp?
+._*
+.Spotlight-V100
+.Trashes
+*.swp
+*.swo
+*~
+
+# macOS specific
+.AppleDouble
+.LSOverride
+Icon?
+__MACOSX
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.dbfseventsd
+.metadata_never_index
+.VolumeIcon.icns
+.TemporaryItems
+.apdisk
+
+# Application-specific
+*.log
+*.tmp
+*.bak
+*.old
+*.db
+
+# Node.js
+node_modules/
+.vscode/
+npm-debug.log
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ruby
+*.gem
+Gemfile.lock
+
+# macOS Finder folder settings
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS resource forks
+._*
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Carthage
+Carthage/Build/
+
+# CocoaPods
+Pods/
+Podfile.lock
