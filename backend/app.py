@@ -22,15 +22,14 @@ db = SQLAlchemy(app)
 
 
 class TestDataItem(db.Model):
-    index = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String(80), nullable=False)
     description = db.Column(db.String(99), nullable=True, default=None)
 
     def __repr__(self):
         return f'<TestDataItem {self.name}>'
 
-    def __init__(self, index, name, description):
-        self.index = index
+    def __init__(self, name, description):
         self.name = name
         self.description = description
 
