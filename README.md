@@ -47,3 +47,6 @@ npm run dev
 cd backend
 python app.py
 ```
+
+## Usage
+Navigate to the frontend URL output after starting it, then login with the username and password you set in the `.env` file for your backend.
