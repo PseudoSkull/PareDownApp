@@ -12,6 +12,22 @@ Prerequisites:
 pip install -r backend/requirements.txt
 ```
 
+#### Setup environment
+Add a file `backend/.env` that contains something like this:
+```bash
+########## ADMIN AUTH ##########
+
+PAREDOWN_APP_USERNAME = 'admin'
+PAREDOWN_APP_PASSWORD = 'mygreatpassword'
+
+######### SERVER #########
+
+WEB_HOST_OF_PAREDOWN_APP = "localhost"
+PAREDOWN_APP_FRONTEND_PORT = "5173"
+```
+
+Adjust the values to fit your environment.
+
 ### Frontend
 #### Install dependencies
 ```shell
